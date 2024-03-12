@@ -8,5 +8,304 @@
     <title>Registro Vehícular UAEM</title>
     <link rel="icon" href="/public/uaem-tag-icon.png" />
   </head>
-  <body></body>
+  <body>
+    <main class="p-4 grid grid-cols-1 justify-center items-center">
+      <div
+        class="mt-2 flex flex-row items-center justify-center gap-6 sm:justify-between sm:p-6"
+      >
+        <div class="w-[70px] sm:w-[120px]">
+          <img src="/public/uaem-logo.png" alt="uaem_logo" />
+        </div>
+        <div class="flex flex-col justify-center text-center items-center">
+          <h1
+            class="text-blue-900 pt-2 text-[20px] font-bold text-sm:text-[25px] md:text-[35px]"
+          >
+            Registro Vehicular
+          </h1>
+          <h1
+            class="text-blue-900 pt-2 text-[20px] font-bold text-sm:text-[25px] md:text-[35px]"
+          >
+            UAEM
+          </h1>
+        </div>
+        <div class="w-[70px] sm:w-[120px]">
+          <img src="/public/uaem-logo.png" alt="uaem_logo" />
+        </div>
+      </div>
+      <!--  -->
+      <section class="py-1 bg-blueGray-50">
+        <div class="w-full lg:w-8/12 px-4 mx-auto mt-6">
+          <div
+            class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0"
+          >
+            <div class="rounded-t bg-white mb-0 px-6 py-6">
+              <div class="text-center flex justify-between">
+                <h6 class="text-blueGray-700 text-xl font-bold">
+                  Nuevo Visitante
+                </h6>
+                <button
+                  class="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 ease-linear transition-all duration-150"
+                  type="button"
+                >
+                  Configuración
+                </button>
+              </div>
+            </div>
+            <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+              <form>
+                <h6
+                  class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                >
+                  Información del Visitante
+                </h6>
+                <div class="flex flex-wrap">
+                  <div class="w-full lg:w-6/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        nombre
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Nombre"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-6/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Email address
+                      </label>
+                      <input
+                        type="email"
+                        placeholder="correo@uaem.mx"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-6/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        First Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Apellido Paterno"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-6/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Last Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Apellido Materno"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="mt-6 border-b-1 border-blueGray-300" />
+
+                <h6
+                  class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                >
+                  Información de contacto
+                </h6>
+                <div class="flex flex-wrap">
+                  <div class="w-full lg:w-12/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Dirección
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Av. Universidad, Colonia Chamilpa #000"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Ciudad
+                      </label>
+                      <input
+                        type="email"
+                        placeholder="Ciudad"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        País
+                      </label>
+                      <input
+                        type="text"
+                        value="México"
+                        disabled
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150 hover:cursor-not-allowed"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Código Postal
+                      </label>
+                      <input
+                        type="number"
+                        pattern="[0-9]+"
+                        placeholder="00000"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="mt-6 border-b-1 border-blueGray-300" />
+
+                <h6
+                  class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                >
+                  Información del Vehículo a Registrar
+                </h6>
+                <div class="flex flex-wrap">
+                  <div class="w-full lg:w-4/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Matrícula Vehícular
+                      </label>
+                      <input
+                        type="tel"
+                        placeholder="Matrícula Vehicular"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Modelo
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="ITALIKA Vort-X"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-4/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Año de Registro
+                      </label>
+                      <input
+                        type="date"
+                        placeholder="00000"
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full lg:w-12/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Información adicional del Vehículo
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Motocicleta ITALIKA color rojo con calcomanía amarilla en el tanque."
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="mt-6 border-b-1 border-blueGray-300" />
+
+                <h6
+                  class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase"
+                >
+                  Información Adicional
+                </h6>
+                <div class="flex flex-wrap">
+                  <div class="w-full lg:w-12/12 px-4">
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                        htmlfor="grid-password"
+                      >
+                        Notas descriptivas
+                      </label>
+                      <textarea
+                        type="text"
+                        placeholder="Si es necesario puedes agregar información adicional aquí."
+                        class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                        rows="4"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <footer class="relative pt-8 pb-6 mt-2">
+            <div class="container mx-auto px-4">
+              <div
+                class="flex flex-wrap items-center md:justify-between justify-center"
+              >
+                <div class="w-full md:w-6/12 px-4 mx-auto text-center">
+                  <div class="text-sm text-blueGray-500 font-semibold py-1">
+                    <h3>UAEM © 2024.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
